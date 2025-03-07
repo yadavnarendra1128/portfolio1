@@ -2,14 +2,14 @@
 import Project from './Project'
 
 const Projects = () => {
-  const projectArr = ([
+  const projectArr = [
     {
       title: "ShoppingWebsite",
       img: "/projects/e-commerce.png",
       desc: "Shopping Website for clothing and accessories. Developed a full-featured e-commerce platform with an admin panel",
-      tags: ["react", "mongodb", "express","zustand"],
+      tags: ["react", "mongodb", "express", "zustand"],
       source: "#",
-      link: "https://fullstackchatapp-m9x1.onrender.com/",
+      link: "https://shoppingapp-1-pk0y.onrender.com/",
     },
     {
       title: "ChatApp",
@@ -25,7 +25,7 @@ const Projects = () => {
       desc: "A real-time chat application built with React, Express, and Socket.io. Enables seamless communication with live message updates.",
       tags: ["react", "express", "mongodb", "redux"],
       source: "#",
-      link: "https://fullstackchatapp-m9x1.onrender.com/",
+      link: "https://jobportal-b9zq.onrender.com/",
     },
     {
       title: "Twitter",
@@ -51,7 +51,7 @@ const Projects = () => {
       source: "https://github.com/Narendra1128/MovieAppReact",
       link: "https://movie-app-react-alpha-rosy.vercel.app/",
     },
-  ]);
+  ];
 
   return (
     projectArr.map((proj,index)=>{
